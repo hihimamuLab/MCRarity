@@ -43,7 +43,14 @@ armor_zombies_layout = [
     [sg.Text('Are you wearing armor?')],
     [sg.Button('Armor enchantment wearing', key = ("-armor_enchantment-"))],
     [sg.Button('Armor wearng', key = ("-armor-"))],
-    [sg.Button('No armor', key = ("-no_armor-"))],
+    [sg.Button('Don\'t wearing armor', key = ("-no_armor-"))],
+]
+
+weapon_zombies_layout = [
+    [sg.Text('Are you wearing weapon?')],
+    [sg.Button('Weapon enchantment wearing', key = ("-weapon_enchantment-"))],
+    [sg.Button('Weapon wearng', key = ("-weapon-"))],
+    [sg.Button('Don\'t wearing weapon', key = ("-no_weapon-"))],
 ]
 
 armor_material_zombies_layout = [
